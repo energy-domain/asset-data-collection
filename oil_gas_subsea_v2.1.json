@@ -23,6 +23,14 @@
             "propertysets" :[
                 "OGSubPset_LinearObject"
             ]
+        },
+        {
+            "owner": "CompactObject",
+            "name": "Structure",
+            "shortDescription": "Structure",
+            "propertysets" :[
+                "OGSubPset_Structure"
+            ]
         }
 
     ],
@@ -51,9 +59,27 @@
             "properties": [
                 "length"
             ]
+        },
+        {
+            "class": "Structure",
+            "name": "OGSubPset_Structure",
+            "description": "Structure properties",
+            "properties": [
+                "width",
+                "height",
+                "length"
+            ]
         }
     ],
     "property": [
+        {
+            "name": "width",
+            "shortDescription": "Width"
+        },
+        {
+            "name": "height",
+            "shortDescription": "Height"
+        },
         {
             "name": "manufacturer",
             "shortDescription": "Manufacturer"
