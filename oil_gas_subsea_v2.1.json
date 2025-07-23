@@ -23,10 +23,27 @@
             "propertysets" :[
                 "OGSubPset_LinearObject"
             ]
+        },
+        {
+            "owner": "CompactObject",
+            "name": "Accessory",
+            "shortDescription": "Acessory",
+            "propertysets" :[
+                "OGSubPset_Acessory"
+            ]
         }
-
     ],
     "propertySet": [
+        {
+            "class": "Accessory",
+            "name": "OGSubPset_Accessory",
+            "description": "Accessory properties",
+            "properties": [
+                "largura",
+                "altura",
+                "tamanho"
+            ]
+        },
         {
             "class": "Asset",
             "name": "OGSubPset_Asset",
@@ -68,6 +85,18 @@
         },
         {
             "name": "length",
+            "shortDescription": "Length"
+        },
+        {
+            "name": "largura",
+            "shortDescription": "Length"
+        },
+        {
+            "name": "altura",
+            "shortDescription": "Length"
+        },
+        {
+            "name": "tamanho",
             "shortDescription": "Length"
         }
     ]
