@@ -31,6 +31,22 @@
             "propertysets" :[
                 "OGSubPset_Acessory"
             ]
+        },
+        {
+            "owner": "CompactObject",
+            "name": "Accessory",      
+            "shortDescription": "Acessório",
+            "propertysets" :[
+                "OGSubPset_Accessory"            
+            ]
+        },
+        {
+            "owner": "CompactObject",
+            "name": "Structure",
+            "shortDescription": "Structure",
+            "propertysets" :[
+                "OGSubPset_Structure"
+            ]
         }
     ],
     "propertySet": [
@@ -68,9 +84,37 @@
             "properties": [
                 "length"
             ]
+        },
+        {
+            "class": "Accessory",
+            "name": "OGSubPset_Accessory",
+            "description": "Accessory properties",
+            "properties": [
+                "length",
+                "width",
+                "height"
+            ]
+        },
+        {
+            "class": "Structure",
+            "name": "OGSubPset_Structure",
+            "description": "Structure properties",
+            "properties": [
+                "width",
+                "height",
+                "length"
+            ]
         }
     ],
     "property": [
+        {
+            "name": "width",
+            "shortDescription": "Width"
+        },
+        {
+            "name": "height",
+            "shortDescription": "Height"
+        },
         {
             "name": "manufacturer",
             "shortDescription": "Manufacturer"
@@ -98,6 +142,15 @@
         {
             "name": "tamanho",
             "shortDescription": "Length"
+        },
+        {
+            "name": "width",
+            "shortDescription": "Width"
+        },
+        {
+            "name": "height",
+            "shortDescription": "Height"
         }
+       
     ]
 }
