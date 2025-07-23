@@ -29,11 +29,17 @@
             "name": "Accessory",
             "shortDescription": "Acessório",
             "propertysets" :[
-                "OGSubPset_Accessory"
+                "OGSubPset_Accessory"            
+            ]
+        },
+        {
+            "owner": "CompactObject",
+            "name": "Structure",
+            "shortDescription": "Structure",
+            "propertysets" :[
+                "OGSubPset_Structure"
             ]
         }
-
-    ],
     "propertySet": [
         {
             "class": "Asset",
@@ -69,9 +75,27 @@
                 "width",
                 "height"
             ]
+        },
+        {
+            "class": "Structure",
+            "name": "OGSubPset_Structure",
+            "description": "Structure properties",
+            "properties": [
+                "width",
+                "height",
+                "length"
+            ]
         }
     ],
     "property": [
+        {
+            "name": "width",
+            "shortDescription": "Width"
+        },
+        {
+            "name": "height",
+            "shortDescription": "Height"
+        },
         {
             "name": "manufacturer",
             "shortDescription": "Manufacturer"
