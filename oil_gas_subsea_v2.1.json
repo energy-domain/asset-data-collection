@@ -1,0 +1,74 @@
+{
+    "class": [
+        {
+            "owner": null,
+            "name": "Asset",
+            "shortDescription": "Physical asset",
+            "propertysets" :[
+                "OGSubPset_Asset"
+            ]
+        },
+        {
+            "owner": "Asset",
+            "name": "CompactObject",
+            "shortDescription": "Compact Object",
+            "propertysets" :[
+                "OGSubPset_CompactObject"
+            ]
+        },
+        {
+            "owner": "Asset",
+            "name": "LinearObject",
+            "shortDescription": "Linear Object",
+            "propertysets" :[
+                "OGSubPset_LinearObject"
+            ]
+        }
+
+    ],
+    "propertySet": [
+        {
+            "class": "Asset",
+            "name": "OGSubPset_Asset",
+            "description": "Asset properties",
+            "properties": [
+                "manufacturer",
+                "part_num"
+            ]
+        },
+        {
+            "class": "CompactObject",
+            "name": "OGSubPset_CompactObject",
+            "description": "CompactObject properties",
+            "properties": [
+                "mass"
+            ]
+        },
+        {
+            "class": "LinearObject",
+            "name": "OGSubPset_LinearObject",
+            "description": "LinearObject properties",
+            "properties": [
+                "length"
+            ]
+        }
+    ],
+    "property": [
+        {
+            "name": "manufacturer",
+            "shortDescription": "Manufacturer"
+        },
+        {
+            "name": "part_num",
+            "shortDescription": "Part/model number"
+        },
+        {
+            "name": "mass",
+            "shortDescription": "Mass"
+        },
+        {
+            "name": "length",
+            "shortDescription": "Length"
+        }
+    ]
+}
