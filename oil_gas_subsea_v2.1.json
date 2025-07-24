@@ -137,11 +137,11 @@
         },
         {
             "name": "altura",
-            "shortDescription": "Length"
+            "shortDescription": "Height"
         },
         {
             "name": "tamanho",
-            "shortDescription": "Length"
+            "shortDescription": "Size"
         },
         {
             "name": "width",
@@ -150,6 +150,10 @@
         {
             "name": "height",
             "shortDescription": "Height"
+        },
+        {
+            "name": "weight",
+            "shortDescription": "Weight"
         }
        
     ]
